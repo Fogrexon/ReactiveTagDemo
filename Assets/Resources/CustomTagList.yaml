@@ -1,0 +1,26 @@
+﻿Name: Root
+Children:
+- Name: Dynamic
+  Children:
+    - Name: Ball
+      Children:
+        - Name: Red
+        - Name: Blue
+        - Name: Green
+    - Name: Cube
+      Children:
+        - Name: Red
+        - Name: Blue
+        - Name: Green
+- Name: Static
+  Children:
+    - Name: Wall
+      Children:
+        - Name: Red
+        - Name: Blue
+        - Name: Green
+    - Name: Floor
+      Children:
+        - Name: Red
+        - Name: Blue
+        - Name: Green
