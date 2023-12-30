@@ -1,13 +1,5 @@
 {
   "dependencies": {
-    "com.fogrex.reactivetag": {
-      "version": "file:ReactiveTag",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "jp.hadashikick.vyaml": "https://github.com/hadashiA/VYaml.git?path=VYaml.Unity/Assets/VYaml#0.20.0"
-      }
-    },
     "com.unity.collab-proxy": {
       "version": "2.2.0",
       "depth": 0,

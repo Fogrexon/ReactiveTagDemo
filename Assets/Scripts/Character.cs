@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿// using ReactiveTag.Generated.Tags;
+
+using ReactiveTag.Generated.Tags;
+using UnityEngine;
 
 public class Character: MonoBehaviour{
     public void OnTagAttach()
@@ -13,8 +16,9 @@ public class Character: MonoBehaviour{
 
     public void Awake()
     {
-        var baseTag = ReactiveTagRoot;
-
-        
+        // var baseTag = ReactiveTagRoot.Dynamic.Ball;
+        Debug.Log("Hello");
+        var baseTag = ReactiveTagRoot.Dynamic.Ball.Green;
+        Debug.Log(baseTag.ToString());
     }
 }
