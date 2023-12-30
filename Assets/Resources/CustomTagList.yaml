@@ -1,26 +1,34 @@
-﻿Name: Root
-Children:
-- Name: Dynamic
-  Children:
-    - Name: Ball
-      Children:
-        - Name: Red
-        - Name: Blue
-        - Name: Green
-    - Name: Cube
-      Children:
-        - Name: Red
-        - Name: Blue
-        - Name: Green
-- Name: Static
-  Children:
-    - Name: Wall
-      Children:
-        - Name: Red
-        - Name: Blue
-        - Name: Green
-    - Name: Floor
-      Children:
-        - Name: Red
-        - Name: Blue
-        - Name: Green
+﻿name: ReactiveTagRoot
+children:
+- name: Dynamic
+  children:
+    - name: Ball
+      children:
+        - name: Red
+        - name: Blue
+        - name: Green
+    - name: Cube
+      children:
+        - name: Red
+        - name: Blue
+        - name: Green
+- name: Static
+  children:
+    - name: Wall
+      children:
+        - name: Red
+        - name: Blue
+        - name: Green
+    - name: Floor
+      children:
+        - name: Red
+          children:
+            - name: Red
+              children:
+                - name: Red
+                  children:
+                    - name: Fire
+            - name: Blue
+            - name: Green
+        - name: Blue
+        - name: Green
