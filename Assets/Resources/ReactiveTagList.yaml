@@ -1,34 +1,96 @@
-﻿name: ReactiveTagRoot
-children:
-- name: Dynamic
-  children:
-    - name: Ball
-      children:
-        - name: Red
-        - name: Blue
-        - name: Green
-    - name: Cube
-      children:
-        - name: Red
-        - name: Blue
-        - name: Green
-- name: Static
-  children:
+name: ReactiveTagRoot
+iconPath: ""
+id: 009276a8682248289a45d4cd160efc3d
+children: 
+- name: Root
+  iconPath: ""
+  id: 8195fdf0fca645ca88bbe5b9c6309b3f
+  children: 
+  - name: Dynamic
+    iconPath: null
+    id: 64879560153b421ca413550913622b3c
+    children: 
+    - name: Character
+      iconPath: null
+      id: 0a4e1a9db3db49869a9032084bbdf1e0
+      children: 
+      - name: Enemy
+        iconPath: null
+        id: df22bbccecbd4ebfa253f0525c7a8384
+        children: 
+        - name: Wolf
+          iconPath: null
+          id: 3e95ba22d5734d53b4f6b3287aeefd8e
+          children: null
+      - name: Player
+        iconPath: null
+        id: a5f84ef6a96e4ab999ff938712ee0f00
+        children: []
+    - name: Effecter
+      iconPath: null
+      id: 952be7b8be3f45a588ca6ac14b6a5919
+      children: null
+    - name: Mover
+      iconPath: null
+      id: c06640166e7f45b5a2c0ba752dac6f59
+      children: null
+  - name: Static
+    iconPath: null
+    id: c6d962d5b3504c94946dff20477176ff
+    children: 
     - name: Wall
-      children:
-        - name: Red
-        - name: Blue
-        - name: Green
+      iconPath: null
+      id: ae7d849b8809481aa566fe2979b18384
+      children: null
     - name: Floor
-      children:
-        - name: Red
-          children:
-            - name: Red
-              children:
-                - name: Red
-                  children:
-                    - name: Fire
-            - name: Blue
-            - name: Green
-        - name: Blue
-        - name: Green
+      iconPath: null
+      id: ca25db537b2449cfb28001ad6fd85fc2
+      children: null
+  - name: Manager
+    iconPath: null
+    id: 6128e44741cb4ec882f16c98f6694953
+    children: 
+    - name: LevelManager
+      iconPath: null
+      id: f9bee75bfb4241fe8144cc9ffd3de33d
+      children: null
+  - name: Effect
+    iconPath: null
+    id: b94286b90f744b9da0f9747fc50979c5
+    children: 
+    - name: Status
+      iconPath: null
+      id: 6ff8b6157a34441faffcdfc640975e23
+      children: 
+      - name: Passive
+        iconPath: null
+        id: 7cc4336c95394bd9872b0c9af28c9e99
+        children: 
+        - name: AttackBoost
+          iconPath: null
+          id: 38aa4bd95503459485570cea852a7548
+          children: null
+        - name: DefenseBoost
+          iconPath: null
+          id: b3c6b086837d4063a00960290713a6e5
+          children: null
+        - name: MoveSpeedBoost
+          iconPath: null
+          id: 45400c380dd94fdc94f576869f886125
+          children: null
+      - name: Trigger
+        iconPath: null
+        id: 04f6e693bd674433adf90707bd850655
+        children: 
+        - name: NewTag
+          iconPath: null
+          id: c4a49b2546b540fe89855bc151bd927f
+          children: null
+    - name: Visual
+      iconPath: null
+      id: 6618891255334eb087f8f03fa2bf21cc
+      children: 
+      - name: NewTag
+        iconPath: null
+        id: 50c32e03c2b447a4a26ff6c811a7497a
+        children: null
